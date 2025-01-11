@@ -63,15 +63,10 @@ Any misuse of the service may result in suspension or termination of your access
 
 The service may contain links to third-party websites or services that are not controlled or owned by us. We are not responsible for the content, privacy policies, or practices of these third-party websites.
 
----
-
-## 10. **Dispute Resolution**
-
-Any disputes arising from these terms will be resolved through binding arbitration in [jurisdiction], and both parties waive the right to participate in a class action lawsuit. This clause does not prevent you from seeking any remedies available under the law.
 
 ---
 
-## 11. **Limitation of Liability**
+## 10. **Limitation of Liability**
 
 We will not be held liable for any damages, losses, or issues that occur while using the service, including but not limited to any inaccuracies in results, or damage to your Project Sekai account.
 
