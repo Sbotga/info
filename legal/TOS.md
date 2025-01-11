@@ -38,7 +38,7 @@ You may terminate this agreement by discontinuing use of the service. We may als
 
 ## 6. **Age Restrictions**
 
-You must be at least 13 years old to use Sbotga. If you are under 18, you must have the consent of a parent or guardian to use this service. By using the service, you confirm that you meet these age requirements.
+You must be at least 13 years old to use Sbotga. You must also meet the minimum age requirement set by Discord, as age restrictions may vary by region. By using the service, you confirm that you meet these age requirements.
 
 ---
 
