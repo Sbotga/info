@@ -1,4 +1,4 @@
-- **English** | [**日本語**](jp/CREDITS.md) | [**简体中文**](zh/CREDITS.md)
+- **English**
 
 # **Credits**
 Main developer: **Yum**  
