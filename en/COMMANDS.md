@@ -29,7 +29,13 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 ### Song Information Commands
 ### Other Information Commands
 ### User Progression Commands
-- `/b30 [param] [param] [param]`
+- `/b30 [param] [param] [param]`- View the b30 plays of the account
+  -[region]: What b30 region to view (eg. EN b30)
+      -Optional, defaults to EN
+  -[private]: Hide the account ID and name
+      -Optional,
+  -[filter]: What song filters to display the b30 with
+      -Optional, defaults to all songs
 - `/progress [param] [param] [param]`
 - `/song progress [param] [param]`
 ### User Data/Setting Commands
