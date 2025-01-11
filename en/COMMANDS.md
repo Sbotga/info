@@ -28,16 +28,26 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 ### Guess Commands
 ### Song Information Commands
 ### Other Information Commands
-### User Progression Commands
-- `/b30 [region] [private] [filter]`- View the b30 plays of the account
-  - `[region]`: What b30 region to view (eg. EN b30)
-      - Optional, defaults to EN
-  - `[private]`: Hide the account ID and name
-       - Optional, defaults to False
-  - `[filter]`: What filters (FC only or AP only) to display the b30 with
-      - Optional, defaults to all (FC and AP)
-- `/progress [param] [param] [param]`
-- `/song progress [param] [param]`
+### User Progression Commands ✅
+- `/b30 [region] [private] [filter]` - View the b30 plays (best 30 songs) of the account.
+  - `[region]`: What linked account to view (eg. EN account b30).
+      - Optional, defaults to EN.
+  - `[private]`: Hide the account ID and name.
+       - Optional, defaults to False.
+  - `[filter]`: What filters (FC only or AP only) to display the b30 with.
+      - Optional, defaults to all (FC and AP).
+- `/progress [difficulty] [region] [private]` - View a difficulty's progress, looking at FCs, APs, and Clears.
+  - `[difficulty]`: View progress of this difficulty.
+      - Optional, defaults to Master.
+  - `[region]`: What linked account to view (eg. EN account progress)
+      - Optional, defaults to EN.
+  - `[private]`: Whether to hide your PJSK name and ID, replacing it with your Discord name.
+      - Optional, defaults to False.
+- `/song progress [song] [region]` - View the progress of a specific PJSK song.
+  - `[song]`: What song to view progress of.
+      - Mandatory.
+  - `[region]`: What linked account to view (eg. EN account song progress)
+      - Optional, defaults to EN.
 ### User Data/Setting Commands
 ### Uncategorized Commands ✅
 - `/help` - Sends you some features, as well as a link to this specific documentation page.
