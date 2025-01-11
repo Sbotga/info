@@ -9,8 +9,6 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 > [!NOTE]  
 > Autocomplete for the `song` parameters will not include aliases or romanized song names. However, we DO accept both.
 > Both the `song` and `character` arguments will attempt to "fuzzy match" (match to closest) option. (So typos will work.)
-
-🟡 means not fully documented OR inaccurate.
 ### Ranked Commands
 - `/ranked view [rank] [region]` - View a specific t100 user on ranked.
     - `[rank]`: The rank to view.
@@ -33,7 +31,30 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
         - Optional, defaults to EN.
     - `[character]`: The character chapter, if applicable (World Link)
         - Optional.
-### Guess Commands 🟡
+### Guess Commands
+> [!IMPORTANT]  
+> Guessing game commands can only be run in servers due to how it works. Leaderboards and stats can be run anywhere (including in DMs).
+
+- `/guess hint` - Get a hint for the current ongoing guess.
+- `/guess end` - End the current ongoing guess.
+- `/guess stats <guess_type> [lb_rank] [user]` - View the guess stats of a specified user.
+    - `<guess_type>`: What type of guess.
+    - `[lb_rank]`: What leaderboard rank the user is. Incompatible with `[user]`.
+        - Optional, defaults to [user] OR yourself.
+    - `[user]`: What user to check leaderboard of. Incompatible with `[lb_rank]`.
+        - Optional, defaults to [lb_rank] OR yourself.
+- `/guess leaderboard <guess_type> [page]` - View the guessing leaderboard.
+    - `<guess_type>`: What type of guess.
+    - `[page]`: What leaderboard page to view.
+        - Optional, defaults to 1.
+- `/guess jacket` - Guess the song based on the cropped jacket.
+- `/guess jacket_smol` - Guess the song based on the super small (30px) cropped jacket.
+- `/guess jacket_bw` - Guess the song based on the grayscale (black and white) cropped jacket.
+- `/guess jacket_challenge` - Guess the song based on the super small (30px) grayscale (black and white) cropped jacket. UNRANKED!
+- `/guess character` - Guess the character based on the cropped 3*, 4*, or Birthday card.
+- `/guess character_bw` - Guess the character based on the grayscale (black and white) cropped 3*, 4*, or Birthday card.
+- `/guess chart` - Guess the song based on the cropped Master chart.
+- `/guess chart_append` - Guess the song based on the cropped Append chart.
 ### Fun Commands
 - `/gacha [region] [reverse_odds]` - Simulate a 10 pull on the latest event gacha.
     - `[region]`: What region's gacha to use.
