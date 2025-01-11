@@ -1,8 +1,8 @@
-[EN] | [日本語](README_JP.md)
+- **EN** | [**日本語**](README_JP.md)
 
 # **Sbotga**
 
-[Invite the Bot](https://discord.com/oauth2/authorize?client_id=1322253224799109281) | [Join the Support Server](https://discord.gg/JKANSRGPNW)
+[Discord Bot](https://discord.com/oauth2/authorize?client_id=1322253224799109281) | [Support Server](https://discord.gg/JKANSRGPNW)
 
 ---
 
