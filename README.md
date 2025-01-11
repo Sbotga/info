@@ -1,4 +1,4 @@
-- **English** | [**日本語**](README_JP.md) | [**简体中文**](README_ZH.md)  
+- **English** | [**日本語**](README_jp.md) | [**简体中文**](README_zh.md)  
 
 # **Sbotga**  
 
