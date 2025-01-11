@@ -20,7 +20,7 @@ We reserve the right to terminate, suspend, or restrict your access to the servi
 
 ## 3. **Privacy and Data Protection**
 
-We respect your privacy and are committed to protecting your personal information. For more details, please refer to our [Privacy Policy].
+We respect your privacy and are committed to protecting your personal information. For more details, please refer to our [Privacy Policy](PRIVACY.md).
 
 ---
 
