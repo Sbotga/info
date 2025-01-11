@@ -1,17 +1,23 @@
-- [**English**](README.md) | **日本語** | [**简体中文**](README_ZH.md)
+- [**English**](README.md) | **日本語** | [**简体中文**](README_zh.md)  
 
-# **Sbotga**
+# **Sbotga**  
 
-[Discordボットを招待する](https://discord.com/oauth2/authorize?client_id=1322253224799109281) | [サポートサーバーに参加](https://discord.gg/JKANSRGPNW)
+[招待](https://discord.com/oauth2/authorize?client_id=1322253224799109281) | [サポートサーバー](https://discord.gg/JKANSRGPNW)  
 
----
+---  
 
-## **Sbotgaって何？**
+## **Sbotgaって何？**  
 Sbotgaは**プロセカ**専用のDiscordボットです。  
-**日本版**と**グローバル版**のどちらのサーバーにも対応しています！
+**日本版**と**グローバル版**の両方に対応しています！  
 
----
+---  
 
-## **便利なリンク**
-- [クレジット](jp/CREDITS.md)
+## **Sbotgaをサポート**  
+[寄付](https://ko-fi.com/uselessyum)  
+- Sbotgaは寄付によって運営されています。ご支援ありがとうございます！  
+
+---  
+
+## **リンク**  
+- [クレジット](jp/CREDITS.md)  
 - [コマンド一覧](jp/COMMANDS.md)
