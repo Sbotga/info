@@ -1,8 +1,18 @@
 - **English**
 
 # **Credits**
-Main developer: **Yum**  
-Helpers:  
-- **sanabow**: Designed the AP, FC, CLEAR, and ALL icons, and created the difficulty color schemes  
-- **fort**: Provided expertise on the PJSK API  
-- **auburn**: Assisted with the progress command  
+
+---
+
+### **Main Developer**  
+- **Yum**  
+
+---
+
+### **Special Thanks**  
+- **Sanabow**  
+  Designed the AP, FC, CLEAR, and ALL icons, and created the difficulty color schemes.  
+- **Fort**  
+  Provided expertise on the PJSK API.  
+- **Auburn**  
+  Assisted with the progress command.  
