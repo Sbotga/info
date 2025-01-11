@@ -124,6 +124,6 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
       - Optional, defaults to EN.
 - `/user pjsk accounts` - View all linked account IDs.
 ### Uncategorized Commands
-- `/help` - Sends you some features, as well as a link to this specific documentation page.
-- `/info` - Sends you basic information on the bot, as well as a link to this Github.
+- `/help` - Sends you some basic information, as well as a link to this specific documentation page.
+- `/donate` - Help support the bot. Sends you donation information.
 - `/ping` - View Sbotga's latency.
