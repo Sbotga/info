@@ -48,7 +48,21 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
       - Mandatory.
   - `[region]`: What linked account to view (eg. EN account song progress)
       - Optional, defaults to EN.
-### User Data/Setting Commands
+### User Data/Setting Commands ✅
+> [!IMPORTANT]  
+> Advanced command usage and information for some of these commands can be found at [LINKING](LINKING.md).
+> This includes a "why" we need this data.
+
+- `/user pjsk link [region]` - Link your PJSK account to your Discord account.
+  - `[region]`: What the account's region is.
+      - Optional, defaults to EN.
+- `/user pjsk unlink [region]` - Unlink your PJSK account from your Discord account.
+  - `[region]`: What the account's region is.
+      - Optional, defaults to EN.
+- `/user pjsk update_data [region]` - Update the stored user data. Requires a temporary account transfer.
+  - `[region]`: What the account's region is.
+      - Optional, defaults to EN.
+- `/user pjsk accounts` - View all linked account IDs.
 ### Uncategorized Commands ✅
 - `/help` - Sends you some features, as well as a link to this specific documentation page.
 - `/info` - Sends you basic information on the bot, as well as a link to this Github.
