@@ -2,6 +2,14 @@
 # Commands
 Sbotga has a variety of commands! Documentation for all of them can be found below.
 
+`<argument>` - Mandatory argument.
+
+`[argument]` - Optional argument.
+
+> [!NOTE]  
+> Autocomplete for the `song` parameters will not include aliases or romanized song names. However, we DO accept both.
+> Both the `song` and `character` arguments will attempt to "fuzzy match" (match to closest) option. (So typos will work.)
+
 🟡 means not fully documented OR inaccurate.
 ### Ranked Commands
 - `/ranked view [rank] [region]` - View a specific t100 user on ranked.
@@ -33,7 +41,23 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[reverse_odds]`: Whether to reverse 2* and 4* odds.
         - Optional, defaults to False.
 - `/quiz` - Random PJSK quiz. NOT IMPLEMENTED
-### Song Information Commands 🟡
+### Song Information Commands
+- `/song info <song>` - View information about a specified song.
+    - `<song>`: What song to view information of.
+      - Mandatory.
+- `/song chart <song> [difficulty]` - View the chart of a specified song.
+    - `<song>`: What song to view chart of.
+      - Mandatory.
+    - `[difficulty]`: View chart of this difficulty.
+      - Optional, defaults to Master.
+- `/song jacket <song>` - View the jacket of a specified song.
+    - `<song>`: What song to view the jacket of.
+      - Mandatory.
+> [!NOTE]  
+> We do not support defining custom per-user aliases. Use these aliases anywhere in the bot that needs a song. Aliases are accepted in guessing, and all song parameters.
+- `/song aliases <song>` - View defined aliases of a specified song.
+    - `<song>`: What song to view aliases of.
+      - Mandatory.
 ### Other Information Commands
 - `/profile [user_id] [region]`
     - `[user_id]`: The user's ID. (same as friend ID)
@@ -58,8 +82,8 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
       - Optional, defaults to EN.
     - `[private]`: Whether to hide your PJSK name and ID, replacing it with your Discord name.
       - Optional, defaults to False.
-- `/song progress [song] [region]` - View the progress of a specific PJSK song.
-    - `[song]`: What song to view progress of.
+- `/song progress <song> [region]` - View the progress of a specific PJSK song.
+    - `<song>`: What song to view progress of.
       - Mandatory.
     - `[region]`: What linked account to view (eg. EN account song progress)
       - Optional, defaults to EN.
@@ -78,7 +102,7 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[region]`: What the account's region is.
       - Optional, defaults to EN.
 - `/user pjsk accounts` - View all linked account IDs.
-### Uncategorized Commands ✅
+### Uncategorized Commands
 - `/help` - Sends you some features, as well as a link to this specific documentation page.
 - `/info` - Sends you basic information on the bot, as well as a link to this Github.
 - `/ping` - View Sbotga's latency.
