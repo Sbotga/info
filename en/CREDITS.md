@@ -3,6 +3,6 @@
 # **Credits**
 Main developer: **Yum**  
 Helpers:  
-- **sanabow**: AP, FC, CLEAR, and ALL icons, and colors  
-- **fort**: Understanding the PJSK API  
-- **auburn**: Assisting with the progress command  
+- **sanabow**: Designed the AP, FC, CLEAR, and ALL icons, and created the difficulty color schemes  
+- **fort**: Provided expertise on the PJSK API  
+- **auburn**: Assisted with the progress command  
