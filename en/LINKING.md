@@ -16,6 +16,8 @@ Run `/pjsk user link`. This guide is in progress, and more info will be added so
 # Account Transferring
 ### What is it?
 Account transferring is used to provide the bot with your user data, including your music results (FC/APs). Account transferring is temporary and we NEVER store your transfer ID or password.
+
+We store a temporary header (session credential) that is invalidated (cannot be used again) the second you transfer your account back.
 ### How-To
 Run `/user pjsk update_data`. This guide is in progress, and more info will be added soon.
 ### Benefits
