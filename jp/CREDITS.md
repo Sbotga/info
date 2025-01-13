@@ -11,8 +11,8 @@
 
 ### **特別感謝**  
 - **Sanabow**  
-  AP、FC、CLEAR、ALLのアイコンをデザインし、難易度の色分けを作成してくれました。  
+  AP、FC、CLEAR、ALLのアイコンをデザインし、難易度の色分けを作成。  
 - **Fort**  
-  Project Sekai APIの専門知識を提供してくれました。  
+  Project Sekai APIの専門知識を提供。  
 - **Auburn**  
-  進捗コマンドのサポートをしてくれました。  
+  進捗コマンドのご協力。  
