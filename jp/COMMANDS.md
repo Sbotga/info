@@ -15,21 +15,21 @@ Sbotgaは様々なコマンドがあります！ここに全てのコマンド�
     - `[rank]`: どの順位を見るか
         - もしアカウントがTOP100でbotと連携してたら任意。
     - `[region]`: どのリージョンを見るか。
-        - 任意、グローバルにデフォルト。
+        - 任意、空欄の場合グローバルにデフォルト。
 - `/ranked leaderboard [region]` - 現在のシーズンのTOP100を見る。
     - `[region]`: どのリージョンを見るか。
-        - 任意、グローバルにデフォルト。
+        - 任意、空欄の場合グローバルにデフォルト。
 ### イベント用コマンド
 - `/event view [rank] [region] [character]` - 現在のイベントのTOP100のプレイヤーの統計を見る。
     - `[rank]`: どの順位を見るか
         - もしアカウントがTOP100でbotと連携してたら任意。
     - `[region]`: どのリージョンを見るか。
-        - 任意、グローバルにデフォルト。
+        - 任意、空欄の場合グローバルにデフォルト。
     - `[character]`: どのチャプターか（ワールドリンクの場合）
         - 任意。
 - `/event leaderboard [region] [character]` - 現在のイベントのTOP100を見る。
     - `[region]`: どのリージョンを見るか。
-        - 任意、グローバルにデフォルト。
+        - 任意、空欄の場合グローバルにデフォルト。
     - `[character]`: どのチャプターか（ワールドリンクの場合）
         - 任意。
 ### クイズ用コマンド (TODO)
@@ -44,14 +44,33 @@ Sbotgaは様々なコマンドがあります！ここに全てのコマンド�
     - `[user]`: どのユーザーのランキングを見るか。`[lb_rank]`と共に使えない.
         - 任意、空欄の場合は[lb_rank]かあなたへデフォルトする。
 - `/guess leaderboard <guess_type> [page]` - クイズのリーダーボードを見る。
-    - `<guess_type>`: どの種類のクイズを見るか
-    - `[page]`: どのリーダーボードのページを見るか
+    - `<guess_type>`: どの種類のクイズを見るか。
+    - `[page]`: どのリーダーボードのページを見るか。
         - 任意、空欄の場合ページ1にデフォルトする。
-- `/guess jacket` -ジャケ絵を見て曲を当てる。
-- `/guess jacket_smol` - Guess the song based on the super small (30px) cropped jacket.
-- `/guess jacket_bw` - Guess the song based on the grayscale (black and white) cropped jacket.
-- `/guess jacket_challenge` - Guess the song based on the super small (30px) grayscale (black and white) cropped jacket. UNRANKED!
-- `/guess character` - Guess the character based on the cropped 3*, 4*, or Birthday card.
-- `/guess character_bw` - Guess the character based on the grayscale (black and white) cropped 3*, 4*, or Birthday card.
-- `/guess chart` - Guess the song based on the cropped Master chart.
-- `/guess chart_append` - Guess the song based on the cropped Append chart.
+- `/guess jacket` - ジャケ絵の一部を見て曲を当てる。
+- `/guess jacket_smol` - めっちゃ小っちゃい(30px)ジャケ絵の一部を見て曲を当てる。
+- `/guess jacket_bw` - 白黒のジャケ絵を一部見て曲を当てる。
+- `/guess jacket_challenge` - めっちゃ小っちゃい(30px)白黒のジャケ絵の一部を見て曲を当てる。ランクされてない!
+- `/guess character` - 星3、星4、かバースデーカードの一部を見てキャラを当てる。
+- `/guess character_bw` - 白黒の星3、星4、かバースデーカードの一部を見てキャラを当てる。
+- `/guess chart` - 難易度MASTERの譜面の一部を見て曲を当てる。
+- `/guess chart_append` - 難易度APPENDの譜面の一部を見て曲を当てる。
+### 楽しいコマンド
+- `/gacha [region] [reverse_odds]` - 現在のイベントガチャで十連のシミュレーションをする。
+- `[region]`: どのリージョンのガチャを使うか。
+        - 任意、空欄の場合グローバルにデフォルト。
+    - `[reverse_odds]`: 星2と星4の確率を逆にするか。
+        - 任意、空欄の場合しないにデフォルト。
+- `/quiz` - 適当なプロセカクイズ。**まだ開発中!!**
+### 楽曲情報のコマンド
+- `/song info <song>` - 指定された曲の詳細を見る。
+    - `<song>`: どの曲に関して詳細を見るか。
+      - 必須。
+- `/song chart <song> [difficulty]` - 指定された曲の譜面を見る。
+    - `<song>`: どの曲の譜面を見るか。
+      - 必須。
+    - `[difficulty]`: どの難易度の譜面を見るか。
+      - 任意、空欄の場合MASTERにデフォルト。
+- `/song jacket <song>` - 指定された曲のジャケ絵を見る。
+    - `<song>`: どの曲のジャケ絵を見るか。
+      - 必須。
