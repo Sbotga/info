@@ -41,8 +41,8 @@ Sbotgaは様々なコマンドがあります！ここに全てのコマンド�
     - `<guess_type>`: どの種類のクイズを見るか。
     - `[lb_rank]`: 1-25位のランキングを見る。`[user]`と共に使えない。
         - 任意、空欄の場合は[user]かあなたへデフォルトする。
-    - `[user]`: What user to check leaderboard of. Incompatible with `[lb_rank]`.
-        - Optional, defaults to [lb_rank] OR yourself.
+    - `[user]`: どのユーザーのランキングを見るか。`[lb_rank]`と共に使えない.
+        - 任意、空欄の場合は[lb_rank]かあなたへデフォルトする。
 - `/guess leaderboard <guess_type> [page]` - クイズのリーダーボードを見る。
     - `<guess_type>`: どの種類のクイズを見るか
     - `[page]`: どのリーダーボードのページを見るか
