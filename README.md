@@ -8,7 +8,7 @@
 
 ## **What is Sbotga?**  
 Sbotga is a Discord bot for **Project Sekai** (*HATSUNE MIKU: COLORFUL STAGE!*).  
-It supports both **Japan** and **Global** servers.  
+It supports **JP, EN, KR, and TW** servers.  
 
 ---  
 
