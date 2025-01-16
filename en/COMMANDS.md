@@ -91,7 +91,7 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 ### User Progression Commands
 - `/b30 [region] [private] [filter]` - View the b30 plays (best 30 songs) of the account.
     - `[region]`: What linked account to view (eg. EN account b30).
-      - Optional, defaults to EN.
+      - Optional, defaults to ALL.
     - `[private]`: Hide the account ID and name.
        - Optional, defaults to False.
     - `[filter]`: What filters (FC only or AP only) to display the b30 with.
