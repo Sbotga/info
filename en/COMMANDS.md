@@ -27,10 +27,13 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[character]`: The character chapter, if applicable (World Link)
         - Optional.
 - `/event leaderboard [region] [character]` - View the t100 current running event leaderboard.
-    - `[region]`: What ranked region to view (eg. EN ranked leaderboard)
+    - `[region]`: What event region to view (eg. EN event leaderboard)
         - Optional, defaults to EN.
     - `[character]`: The character chapter, if applicable (World Link)
         - Optional.
+- `/event schedule [region]` - View the upcoming event schedule.
+    - `[region]`: What event region to view (eg. EN event schedule)
+        - Optional, defaults to EN.
 ### Guess Commands
 > [!IMPORTANT]  
 > Guessing game commands can only be run in servers due to how it works. Leaderboards and stats can be run anywhere (including in DMs).
@@ -74,10 +77,24 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 - `/song jacket <song>` - View the jacket of a specified song.
     - `<song>`: What song to view the jacket of.
       - Mandatory.
+- `/song skillorder <song>` - View the skill activation order of a specified song.
+    - `<song>`: What song to view the skill activation order of.
+      - Mandatory.
 > [!NOTE]  
 > We do not support defining custom per-user aliases. Use these aliases anywhere in the bot that needs a song. Aliases are accepted in guessing, and all song parameters.
 - `/song aliases <song>` - View defined aliases of a specified song.
     - `<song>`: What song to view aliases of.
+      - Mandatory.
+### Character Information Commands
+- `/character info <character>` - View information about a specified PJSK character.
+    - `<character>`: What character to view information on.
+      - Mandatory.
+> [!IMPORTANT]  
+> The `<card>` parameter is a search bar! We support searching by rarity, attribute, character, and card name!
+>
+> For example, searching `3* cute haruka` will provide a list of autocompletes, all of which are [Cute] 3☆ Haruka Kiritani.
+- `/character card <card>` - View information about a specified PJSK card.
+    - `<card>`: What card to view information on.
       - Mandatory.
 ### Other Information Commands
 - `/profile [user_id] [region]`
