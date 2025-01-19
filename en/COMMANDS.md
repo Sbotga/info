@@ -80,6 +80,12 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 - `/song skillorder <song>` - View the skill activation order of a specified song.
     - `<song>`: What song to view the skill activation order of.
       - Mandatory.
+- `/song constant <song> [difficulty]` - View the constant (community-rated difficulty) of a specified song.
+    - `<song>`: What song to view the constant of.
+      - Mandatory.
+    - `[difficulty]`: View constant of this difficulty.
+      - Optional, defaults to Master.
+      - Only supports Expert, Master, and Append.
 > [!NOTE]  
 > We do not support defining custom per-user aliases. Use these aliases anywhere in the bot that needs a song. Aliases are accepted in guessing, and all song parameters.
 - `/song aliases <song>` - View defined aliases of a specified song.
