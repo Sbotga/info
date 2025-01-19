@@ -20,8 +20,8 @@ When you use **Sbotga**, we collect the following types of information:
 - **Server Information**: We collect data about the Discord server (guild) you are using **Sbotga** on, such as the server ID, server name, and any interactions that take place in that server.
 - **Messages**: Messages sent to **Sbotga** are stored temporarily to process your requests. These messages are not retained longer than necessary to fulfill your command.
   
-### 1.3 **No Credentials Stored**
-- **No Credentials Stored**: Provided **PJSK credentials** (your transfer ID and transfer Password) are **NOT stored**. They are only used temporarily to fetch relevant data for the service.
+### 1.3 **No Transfer Settings Stored**
+- **No Transfer Settings Stored**: Provided **PJSK transfer settings** are **NOT stored**. They are only used temporarily to fetch relevant data for the service.
 
 ---
 
