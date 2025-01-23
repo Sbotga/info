@@ -58,7 +58,7 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 - `/guess character_bw` - Guess the character based on the grayscale (black and white) cropped 3*, 4*, or Birthday card.
 - `/guess chart` - Guess the song based on the cropped Master chart.
 - `/guess chart_append` - Guess the song based on the cropped Append chart.
-### Fun Commands
+### Other Fun Commands
 - `/gacha [region] [reverse_odds]` - Simulate a 10 pull on the latest event gacha.
     - `[region]`: What region's gacha to use.
         - Optional, defaults to EN.
@@ -110,6 +110,11 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
         - Optional, defaults to EN.
 - `/comics [region]`
     - `[region]`: What region's comics to use. The language will change accordingly.
+        - Optional, defaults to EN.
+- `/why_inappropriate <text> [region]`
+    - `<text>`: The text to check, to see why it's inappropriate on PJSK.
+        - Mandatory.
+    - `[region]`: What region's filter to use.
         - Optional, defaults to EN.
 ### User Progression Commands
 - `/b30 [region] [private] [filter]` - View the b30 plays (best 30 songs) of the account.
