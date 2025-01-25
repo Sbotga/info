@@ -58,6 +58,7 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 - `/guess character_bw` - Guess the character based on the grayscale (black and white) cropped 3*, 4*, or Birthday card.
 - `/guess chart` - Guess the song based on the cropped Master chart.
 - `/guess chart_append` - Guess the song based on the cropped Append chart.
+- `/guess event` - Guess the event based on the cropped event background.
 ### Other Fun Commands
 - `/gacha [region] [reverse_odds]` - Simulate a 10 pull on the latest event gacha.
     - `[region]`: What region's gacha to use.
