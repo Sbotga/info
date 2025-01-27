@@ -1,6 +1,7 @@
 # Terms of Service
 
-**Effective Date:** 2025/01/11 2:00 AM EST
+**Last Updated:** 2025/01/07 12:50 PM EST  
+**Effective Date:** 2025/01/07 1:00 PM EST
 
 By using **Sbotga** or any of its associated services, you agree to abide by these Terms of Service. If you do not agree with any part of these terms, please do not use the service.
 
@@ -53,6 +54,7 @@ We welcome feedback and suggestions for improving the service. However, by submi
 You agree not to use the service for any unlawful purpose, or to engage in any activity that could harm or interfere with the normal operation of the service. This includes, but is not limited to:
 - **Spamming** or sending excessive messages.
 - **Hacking** or attempting to break, modify, or gain unauthorized access to the service.
+- **Cheating** or using bots, scripts, or automated tools to manipulate the service.
 - **Harassment** of other users or any conduct that violates Discord's Terms of Service.
 
 Any misuse of the service may result in suspension or termination of your access.
@@ -72,6 +74,6 @@ We will not be held liable for any damages, losses, or issues that occur while u
 
 ---
 
-By continuing to use Sbotga, you agree to these Terms of Service and any future amendments. If you do not agree with these terms, you should immediately stop using the service.
+By continuing to use Sbotga, you agree to these Terms of Service and any future amendments. You are responsible for regularly reviewing these Terms of Service to stay informed of updates. If you do not agree with these terms, you should immediately stop using the service.
 
 ---
