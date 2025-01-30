@@ -81,8 +81,8 @@ Sbotgaは様々なコマンドがあります！ここに全てのコマンド�
 - `/song skillorder <song>` - 指定された曲のスキルの発動の順番を見る。
     - `<song>`: どの曲を見るか。
         - 必須。
-- `/song constant <song> [difficulty]` - 指定された曲の譜面定数(非公式)を見る。View the constant (community-rated difficulty) of a specified song.
-    - `<song>`: どの曲の定数を見るか。
+- `/song constant <song> [difficulty]` - 指定された曲の譜面定数(非公式)を見る。
+- `<song>`: どの曲の定数を見るか。
         - 必須。
     - `[difficulty]`: どの難易度の定数を見るか。
         - 任意, 空欄の場合マスターにデフォルト。
