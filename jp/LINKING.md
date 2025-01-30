@@ -17,7 +17,7 @@ Sbotgaは、アカウント連携と移植を使用しないと何個かのコ�
 ### アカウント移植、とは？
 アカウント移植はSbotgaにユーザーデータを共有します。FC曲とAP曲も共有されます。アカウントの移植は一時的であり、連携IDとパスワードは**絶対**にSbotgaは保存しません。
 
-We store a temporary header (session credential) that is invalidated (cannot be used again) the second you transfer your account back.
+一時的なヘッダーを設定し、アカウントを取り返したら使えないようになってます。
 ### やり方
 `/user pjsk update_data`のコマンドを使う。このガイドは工事中なので、もっと情報は後に追加されます。
 ### アカウント移植の利点
