@@ -16,5 +16,5 @@
   Project Sekai APIの専門知識を提供。  
 - **Auburn**  
   進捗コマンドのご協力。  
-- **こまんどA**  
+- **KomanndA**  
   日本語への翻訳。翻訳で何かおかしかったら[Twitter](https://x.com/komannda124)でDM送ってください！
