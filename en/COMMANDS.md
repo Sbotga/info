@@ -53,12 +53,13 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 - `/guess jacket` - Guess the song based on the cropped jacket.
 - `/guess jacket_smol` - Guess the song based on the super small (30px) cropped jacket.
 - `/guess jacket_bw` - Guess the song based on the grayscale (black and white) cropped jacket.
-- `/guess jacket_challenge` - Guess the song based on the super small (30px) grayscale (black and white) cropped jacket. UNRANKED!
+- `/guess jacket_challenge` - Guess the song based on the super small (30px) grayscale (black and white) cropped jacket.
 - `/guess character` - Guess the character based on the cropped 3*, 4*, or Birthday card.
 - `/guess character_bw` - Guess the character based on the grayscale (black and white) cropped 3*, 4*, or Birthday card.
 - `/guess chart` - Guess the song based on the cropped Master chart.
 - `/guess chart_append` - Guess the song based on the cropped Append chart.
 - `/guess event` - Guess the event based on the cropped event background.
+- `/guess notes` - Guess the song based on the Master's note count.
 ### Other Fun Commands
 - `/gacha [region] [reverse_odds]` - Simulate a 10 pull on the latest event gacha.
     - `[region]`: What region's gacha to use.
@@ -104,7 +105,7 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `<card>`: What card to view information on.
       - Mandatory.
 ### Other Information Commands
-- `/profile [user_id] [region]`
+- `/pjsk profile [user_id] [region]`
     - `[user_id]`: The user's ID. (same as friend ID)
         - Optional if your PJSK account is linked for specified region.
     - `[region]`: What region the account is from.
@@ -112,7 +113,7 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 - `/comics [region]`
     - `[region]`: What region's comics to use. The language will change accordingly.
         - Optional, defaults to EN.
-- `/why_inappropriate <text> [region]`
+- `/pjsk why_inappropriate <text> [region]`
     - `<text>`: The text to check, to see why it's inappropriate on PJSK.
         - Mandatory.
     - `[region]`: What region's filter to use.
@@ -152,6 +153,15 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[region]`: What the account's region is.
       - Optional, defaults to EN.
 - `/user pjsk accounts` - View all linked account IDs.
+### Sbotga Info Commands
+- `/profile [user]` - View your profile, including level and Sbugacoin.
+    - `[user]`: What user to view profile of.
+        - Optional, defaults to yourself.
+- `/xp_for <level>` - View the XP required for a specific level.
+    - `<level>`: The level to view XP for.
+- `/achievements [user]` - View your achievements in Sbotga.
+    - `[user]`: What user to view profile of.
+        - Optional, defaults to yourself.
 ### Uncategorized Commands
 - `/help` - Sends you some basic information, as well as a link to this specific documentation page.
 - `/donate` - Help support the bot. Sends you donation information.
