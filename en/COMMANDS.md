@@ -35,9 +35,6 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[region]`: What event region to view (eg. EN event schedule)
         - Optional, defaults to EN.
 ### Guess Commands
-> [!IMPORTANT]  
-> Guessing game commands can only be run in servers due to how it works. Leaderboards and stats can be run anywhere (including in DMs).
-
 - `/guess hint` - Get a hint for the current ongoing guess.
 - `/guess end` - End the current ongoing guess.
 - `/guess stats <guess_type> [lb_rank] [user]` - View the guess stats of a specified user.
