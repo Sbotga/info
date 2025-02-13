@@ -76,9 +76,11 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 - `/song jacket <song>` - View the jacket of a specified song.
     - `<song>`: What song to view the jacket of.
       - Mandatory.
-- `/song skillorder <song>` - View the skill activation order of a specified song.
-    - `<song>`: What song to view the skill activation order of.
+- `/song strategy <song> [difficulty]` - View a strategy for the song, if exists.
+    - `<song>`: What song to view a strategy guide for.
       - Mandatory.
+    - `[difficulty]`: View strategy guide of this difficulty.
+      - Optional, defaults to Master.
 - `/song constant <song> [difficulty]` - View the constant (community-rated difficulty) of a specified song.
     - `<song>`: What song to view the constant of.
       - Mandatory.
@@ -150,6 +152,7 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[region]`: What the account's region is.
       - Optional, defaults to EN.
 - `/user pjsk accounts` - View all linked account IDs.
+- `/user settings` - Change Sbotga user settings.
 ### Sbotga Info Commands
 - `/profile [user]` - View your profile, including level and Sbugacoin.
     - `[user]`: What user to view profile of.
