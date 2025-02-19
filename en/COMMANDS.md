@@ -14,26 +14,29 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[rank]`: The rank to view.
         - Optional if your PJSK account is linked for specified region.
     - `[region]`: What ranked region to view (eg. EN ranked user)
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
 - `/ranked leaderboard [region]` - View the t100 ranked leaderboard.
     - `[region]`: What ranked region to view (eg. EN ranked leaderboard)
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
 ### Event Commands
 - `/event view [rank] [region] [character]` - View a specific t100 user on the current running event.
     - `[rank]`: The rank to view.
         - Optional if your PJSK account is linked for specified region.
     - `[region]`: What region to view (eg. EN current event)
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
     - `[character]`: The character chapter, if applicable (World Link)
         - Optional.
 - `/event leaderboard [region] [character]` - View the t100 current running event leaderboard.
     - `[region]`: What event region to view (eg. EN event leaderboard)
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
     - `[character]`: The character chapter, if applicable (World Link)
         - Optional.
 - `/event schedule [region]` - View the upcoming event schedule.
     - `[region]`: What event region to view (eg. EN event schedule)
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
+- `/event border [region]` - View the current event borders (highlights).
+    - `[region]`: What event region to view (eg. EN event border)
+        - Optional, defaults to your default region (EN if not set).
 ### Guess Commands
 - `/guess hint` - Get a hint for the current ongoing guess.
 - `/guess end` - End the current ongoing guess.
@@ -60,7 +63,7 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 ### Other Fun Commands
 - `/gacha [region] [reverse_odds]` - Simulate a 10 pull on the latest event gacha.
     - `[region]`: What region's gacha to use.
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
     - `[reverse_odds]`: Whether to reverse 2* and 4* odds.
         - Optional, defaults to False.
 - `/quiz` - Random PJSK quiz. NOT IMPLEMENTED
@@ -108,19 +111,19 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[user_id]`: The user's ID. (same as friend ID)
         - Optional if your PJSK account is linked for specified region.
     - `[region]`: What region the account is from.
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
 - `/comics [region]`
     - `[region]`: What region's comics to use. The language will change accordingly.
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
 - `/pjsk why_inappropriate <text> [region]`
     - `<text>`: The text to check, to see why it's inappropriate on PJSK.
         - Mandatory.
     - `[region]`: What region's filter to use.
-        - Optional, defaults to EN.
+        - Optional, defaults to your default region (EN if not set).
 ### User Progression Commands
 - `/b30 [region] [private] [filter]` - View the b30 plays (best 30 songs) of the account.
     - `[region]`: What linked account to view (eg. EN account b30).
-      - Optional, defaults to ALL.
+      - Optional, defaults to ALL (merged from all your account data).
     - `[private]`: Hide the account ID and name.
        - Optional, defaults to False.
     - `[filter]`: What filters (FC only or AP only) to display the b30 with.
@@ -129,14 +132,14 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
     - `[difficulty]`: View progress of this difficulty.
       - Optional, defaults to Master.
     - `[region]`: What linked account to view (eg. EN account progress)
-      - Optional, defaults to EN.
+      - Optional, defaults to your default region (EN if not set).
     - `[private]`: Whether to hide your PJSK name and ID, replacing it with your Discord name.
       - Optional, defaults to False.
 - `/song progress <song> [region]` - View the progress of a specific PJSK song.
     - `<song>`: What song to view progress of.
       - Mandatory.
     - `[region]`: What linked account to view (eg. EN account song progress)
-      - Optional, defaults to EN.
+      - Optional, defaults to your default region (EN if not set).
 - `/song difficulty <level>` - View all songs of a specified level.
     - `<level>`: What level to view songs of.
       - Mandatory.
@@ -147,13 +150,13 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
 
 - `/user pjsk link [region]` - Link your PJSK account to your Discord account.
     - `[region]`: What the account's region is.
-      - Optional, defaults to EN.
+      - Optional, defaults to your default region (EN if not set).
 - `/user pjsk unlink [region]` - Unlink your PJSK account from your Discord account.
     - `[region]`: What the account's region is.
-      - Optional, defaults to EN.
+      - Optional, defaults to your default region (EN if not set).
 - `/user pjsk update_data [region]` - Update the stored user data. Requires a temporary account transfer.
     - `[region]`: What the account's region is.
-      - Optional, defaults to EN.
+      - Optional, defaults to your default region (EN if not set).
 - `/user pjsk accounts` - View all linked account IDs.
 - `/user settings` - Change Sbotga user settings.
 ### Sbotga Info Commands
