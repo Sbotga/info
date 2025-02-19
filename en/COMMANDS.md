@@ -137,6 +137,9 @@ Sbotga has a variety of commands! Documentation for all of them can be found bel
       - Mandatory.
     - `[region]`: What linked account to view (eg. EN account song progress)
       - Optional, defaults to EN.
+- `/song difficulty <level>` - View all songs of a specified level.
+    - `<level>`: What level to view songs of.
+      - Mandatory.
 ### User Data/Setting Commands
 > [!IMPORTANT]  
 > Advanced command usage and information for some of these commands can be found at [LINKING](LINKING.md).
