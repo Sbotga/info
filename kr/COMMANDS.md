@@ -7,38 +7,38 @@ Sbotga는 다양한 명령을 수행할 수 있습니다! 이 곳에서 모든 �
 `[argument]` - 선택 입력란입니다.
 
 > [!NOTE]  
-> 매개변수 `song`의 자동완성에는 곡의 로마자 표기와 약어가 포함되지 않습니다. 다만, 둘 다 인식이 가능합니다.
+> 매개변수 `song`의 자동완성에는 곡의 로마자 표기와 약어가 포함되지 않습니다. 다만, 두 방법 다 인식은 가능합니다.
 >
 > 매개변수 `song` 과 `character`는 "fuzzy match" (가까운 문자로 번역하기) 기능을 시도합니다. (따라서 오타가 나도 작동합니다)
 ### 랭크 매치 명령어
-- `/ranked view [rank] [region]` - View a specific t100 user on ranked.
-    - `[rank]`: The rank to view.
-        - Optional if your PJSK account is linked for specified region.
-    - `[region]`: What ranked region to view (eg. EN ranked user)
-        - Optional, defaults to your default region (EN if not set).
-- `/ranked leaderboard [region]` - View the t100 ranked leaderboard.
-    - `[region]`: What ranked region to view (eg. EN ranked leaderboard)
-        - Optional, defaults to your default region (EN if not set).
-### Event Commands
-- `/event view [rank] [region] [character]` - View a specific t100 user on the current running event.
-    - `[rank]`: The rank to view.
-        - Optional if your PJSK account is linked for specified region.
-    - `[region]`: What region to view (eg. EN current event)
-        - Optional, defaults to your default region (EN if not set).
-    - `[character]`: The character chapter, if applicable (World Link)
-        - Optional.
-- `/event leaderboard [region] [character]` - View the t100 current running event leaderboard.
-    - `[region]`: What event region to view (eg. EN event leaderboard)
-        - Optional, defaults to your default region (EN if not set).
-    - `[character]`: The character chapter, if applicable (World Link)
-        - Optional.
-- `/event schedule [region]` - View the upcoming event schedule.
-    - `[region]`: What event region to view (eg. EN event schedule)
-        - Optional, defaults to your default region (EN if not set).
-- `/event border [region]` - View the current event borders (highlights).
-    - `[region]`: What event region to view (eg. EN event border)
-        - Optional, defaults to your default region (EN if not set).
-### Guess Commands
+- `/ranked view [rank] [region]` - 현재 시즌의 랭크 매치에서 특정 TOP 100 유저의 전적을 조회합니다.
+    - `[rank]`: 해당 플레이어의 순위
+        - 만약 계정이 Sbotga와 연동되어 있다면 필수 입력란이 아닙니다.
+    - `[region]`: 랭크 매치의 서버 선택 (예: 글로벌 서버의 랭크 매치 플레이어)
+        - 필수 입력란이 아닙니다. 입력하지 않으면 기본 설정된 서버가 선택됩니다. (기본 설정된 서버가 없다면, 글로벌 서버가 선택됩니다.)
+- `/ranked leaderboard [region]` - 현재 시즌의 랭크 매치 TOP 100을 조회합니다.
+    - `[region]`: 랭크 매치의 서버 선택 (예: 글로벌 서버의 랭크 매치 TOP 100)
+        - 필수 입력란이 아닙니다. 입력하지 않으면 기본 설정된 서버가 선택됩니다. (기본 설정된 서버가 없다면, 글로벌 서버가 선택됩니다.)
+### 이벤트 명령어
+- `/event view [rank] [region] [character]` - 현재 진행중인 이벤트에서 특정 TOP 100 유저의 정보를 조회합니다.
+    - `[rank]`: 해당 플레이어의 순위
+        - 만약 계정이 Sbotga와 연동되어 있다면 필수 입력란이 아닙니다.
+    - `[region]`: 이벤트의 서버 선택 (예: 글로벌 서버의 플레이어)
+        - 필수 입력란이 아닙니다. 입력하지 않으면 기본 설정된 서버가 선택됩니다. (기본 설정된 서버가 없다면, 글로벌 서버가 선택됩니다.)
+    - `[character]`: 해당하는 캐릭터의 챕터 (월드 링크 이벤트)
+        - 필수 입력란이 아닙니다.
+- `/event leaderboard [region] [character]` - 현재 진행중인 이벤트의 TOP 100을 조회합니다.
+    - `[region]`: 이벤트의 서버 선택 (예: 글로벌 서버의 이벤트 TOP 100)
+        - 필수 입력란이 아닙니다. 입력하지 않으면 기본 설정된 서버가 선택됩니다. (기본 설정된 서버가 없다면, 글로벌 서버가 선택됩니다.)
+    - `[character]`: 해당하는 캐릭터의 챕터 (월드 링크 이벤트)
+        - 필수 입력란이 아닙니다.
+- `/event schedule [region]` - 향후 이벤트의 스케줄을 조회합니다.
+    - `[region]`: 이벤트의 서버 선택 (예: 글로벌 서버의 향후 이벤트)
+        - 필수 입력란이 아닙니다. 입력하지 않으면 기본 설정된 서버가 선택됩니다. (기본 설정된 서버가 없다면, 글로벌 서버가 선택됩니다.)
+- `/event border [region]` - 현재 이벤트 하이라이트 순위 조회
+    - `[region]`: 이벤트의 서버 선택 (예: 글로벌 서버의 이벤트 하이라이트)
+        - 필수 입력란이 아닙니다. 입력하지 않으면 기본 설정된 서버가 선택됩니다. (기본 설정된 서버가 없다면, 글로벌 서버가 선택됩니다.)
+### 퀴즈 명령어
 - `/guess hint` - Get a hint for the current ongoing guess.
 - `/guess end` - End the current ongoing guess.
 - `/guess stats <guess_type> [lb_rank] [user]` - View the guess stats of a specified user.
