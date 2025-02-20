@@ -20,4 +20,4 @@ Sbotga는 프로젝트 세카이: 컬러풀 스테이지! feat. 하츠네 미쿠
 
 ## **링크**  
 - [크레딧](kr/CREDITS.md)  
-- [커맨드]()  
+- [커맨드](kr/COMMANDS.md)
