@@ -8,7 +8,8 @@ Sbotga는 다양한 명령을 수행할 수 있습니다! 이 곳에서 모든 �
 
 > [!NOTE]  
 > 매개변수 `song`의 자동완성에는 곡의 로마자 표기와 약어가 포함되지 않습니다. 다만, 두 방법 다 인식은 가능합니다.
->  매개변수 `song` 과 `character`는 "fuzzy match" (가까운 문자로 번역하기) 기능을 시도합니다. (따라서 오타가 나도 작동합니다)
+>
+> 매개변수 `song` 과 `character`는 "fuzzy match" (가까운 문자로 번역하기) 기능을 시도합니다. (따라서 오타가 나도 작동합니다)
 ### 랭크 매치 명령어
 - `/ranked view [rank] [region]` - 현재 시즌의 랭크 매치에서 특정 TOP 100 유저의 전적을 조회합니다.
     - `[rank]`: 해당 플레이어의 순위
@@ -38,14 +39,14 @@ Sbotga는 다양한 명령을 수행할 수 있습니다! 이 곳에서 모든 �
     - `[region]`: 이벤트의 서버 선택 (예: 글로벌 서버의 이벤트 하이라이트)
         - 필수 입력란이 아닙니다. 입력하지 않으면 기본 설정된 서버가 선택됩니다. (기본 설정된 서버가 없다면, 글로벌 서버가 선택됩니다.)
 ### 퀴즈 명령어
-- `/guess hint` - Get a hint for the current ongoing guess.
-- `/guess end` - End the current ongoing guess.
-- `/guess stats <guess_type> [lb_rank] [user]` - View the guess stats of a specified user.
-    - `<guess_type>`: What type of guess.
-    - `[lb_rank]`: What leaderboard rank the user is. Incompatible with `[user]`.
-        - Optional, defaults to [user] OR yourself.
-    - `[user]`: What user to check leaderboard of. Incompatible with `[lb_rank]`.
-        - Optional, defaults to [lb_rank] OR yourself.
+- `/guess hint` - 현재 진행중인 퀴즈의 힌트를 확인합니다.
+- `/guess end` - 현재 진행중인 퀴즈를 끝냅니다.
+- `/guess stats <guess_type> [lb_rank] [user]` - 특정 유저의 퀴즈 전적을 확인합니다.
+    - `<guess_type>`: 퀴즈의 종류
+    - `[lb_rank]`: 순위표에서 사용자의 위치 (매개변수 `[user]` 와 함께 사용될 수 없습니다.)
+        - 필수 입력란이 아닙니다. 입력하지 않으면 [user], 혹은 자신이 선택됩니다.
+    - `[user]`: 특정한 사용자 선택 (매개변수 `[lb_rank]` 와 함께 사용될 수 없습니다.)
+        - 필수 입력란이 아닙니다. 입력하지 않으면 [lb_rank], 혹은 자신이 선택됩니다.
 - `/guess leaderboard <guess_type> [page]` - View the guessing leaderboard.
     - `<guess_type>`: What type of guess.
     - `[page]`: What leaderboard page to view.
