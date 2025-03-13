@@ -47,10 +47,10 @@ Sbotga는 다양한 명령을 수행할 수 있습니다! 이 곳에서 모든 �
         - 선택 입력란입니다. 입력하지 않으면 [user], 혹은 자신이 선택됩니다.
     - `[user]`: 특정한 사용자 선택 (매개변수 `[lb_rank]` 와 함께 사용될 수 없습니다.)
         - 선택 입력란입니다. 입력하지 않으면 [lb_rank], 혹은 자신이 선택됩니다.
-- `/guess leaderboard <guess_type> [page]` - View the guessing leaderboard.
-    - `<guess_type>`: What type of guess.
-    - `[page]`: What leaderboard page to view.
-        - Optional, defaults to 1.
+- `/guess leaderboard <guess_type> [page]` - 퀴즈 순위표를 조회합니다.
+    - `<guess_type>`: 퀴즈의 종류
+    - `[page]`: 조회할 순위표의 페이지
+        - 선택 입력란입니다. 입력하지 않으면 1로 설정됩니다.
 - `/guess jacket` - Guess the song based on the cropped jacket.
 - `/guess jacket_smol` - Guess the song based on the super small (30px) cropped jacket.
 - `/guess jacket_bw` - Guess the song based on the grayscale (black and white) cropped jacket.
