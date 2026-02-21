@@ -3,6 +3,7 @@
 # **Sbotga**  
 
 **UPDATE 2026/2/20** Discord has termed Sbotga. If an appeal does not work, Sbotga will permanently shut down, and I'll make it a website instead. Your guessing data is saved.
+
 **UPDATE 2026/2/21** Sbotga is discontinued. It will no longer exist as a Discord bot. However, a new project is planned to replace Sbotga, and all guessing data is saved.
 
 Invite | Support Server
