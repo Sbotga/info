@@ -2,6 +2,8 @@
 
 # **Sbotga**  
 
+**UPDATE 20/02/2026** Sbotgaのサービスはディスコードにより終了しました。ボットとして機能はしません。Sbotgaの代わりの新しいプロジェクトは今開発中です。
+
 [招待](https://discord.com/oauth2/authorize?client_id=1322253224799109281) | [サポートサーバー](https://discord.gg/JKANSRGPNW)  
 
 ---  
